@@ -197,8 +197,7 @@ configuration file looks like the following:
 
 The `host`, `user`, and `port` control the PostgreSQL configuration
 information. For more advanced connection options, please use the
-`connection_str` field. Please see [Rust postgres configuration]
-(https://docs.rs/postgres/0.19.2/postgres/config/struct.Config.html).
+`connection_str` field. Please see [Rust postgres configuration](https://docs.rs/postgres/0.19.2/postgres/config/struct.Config.html).
 
 To improve the throughput to the database, the plugin supports connection pooling
 using multiple threads, each maintaining a connection to the PostgreSQL database.
